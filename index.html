@@ -1,0 +1,107 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>TARJETAS</title>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+        <style type="text/css">
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            img{ width: 100%}
+            body{
+                height: 100%;
+                background: black;
+                color: white;
+            }
+            .contenidor{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                padding: 60;
+                justify-content: center;
+                flex-grow: 50;
+                border: 20px solid black;
+            }
+            .corazon,.noma{
+                border-radius: 50px;
+                display: flex;
+                width: 800px;
+                margin: 1em;
+                flex-direction: column;
+                background: rgba(240,240,240,0,8)
+                }
+            .cora_img, .noma_img{
+                border-radius: :20px 20px 0 0;
+                height: 300px;
+                background-color: floralwhite;
+            }
+            .cora_img,img, .noma_img, img{
+                filter: grayscale(100%);
+                border-radius: 20px 20px 0 0;
+                overflow: hidden;
+                height: 100%;
+                object-fit: cover;
+                object-position: center center;
+            }
+            h1{
+                font-weight: 900;
+                font-style: normal;
+                font-family: 'Girassol', cursive;
+                color: firebrick;
+            }
+            h2{
+                font-weight: 60;
+                font-style: normal;
+                font-family: 'Merriweather', serif; 
+                color: rosybrown;
+            }
+            .cora_pie, noma_pie{
+                border-radius: 0 0 10px 10px;
+                color: 
+                font-family: 'Merriweather', serif;
+                padding: 10;
+                flex-grow: 5;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contenidor">
+            <div class="corazon">
+                <div class="cora_img">
+                    <img src="img/cor.jpg">
+                </div>
+                <header>
+                    <h1>Alberto Corazón</h1>
+                    <h2>Diseñador industrail, editor, pintor y escultor</h2>
+                </header>
+                <div class="cora_texto">
+                    <p>Académico de la Real Academia de Bellas Artes de San Fernando, ha sido galardonado por las más prestigiosas instituciones profesionales internacionales, y en España, con el Premio Nacional de Diseño 1989. diseñadores españoles con más extensa proyección internacional.
+                    Premiado por el Arts Director Club de Nueva York, el British Design y el Design Council International. En 1989 ganó el Premio Nacional de Diseño y es el único diseñador europeo que ha recibido la Medalla de Oro del American Institute of Graphic Arts, el más importante premio internacional en el área de la Comunicación Visual. Pero su trabajo engloba identidades tan reconocibles como MOPU, Ministerio de Sanidad, Ministerio de Cultura, Paradores de España, RENFE y Cercanías, la ONCE, Tesoro Público, Centro de Música Contemporánea, Centro de Nuevas Tendencias Teatrales, Compañía Nacional de Danza.. solo por destacar algunos.</p>
+                </div>
+                <div class="cora_pie">
+                    <p>Para la Expo Sevilla 92 diseña todo el conjunto de Módulos de Información y Servicios. ( taquillas, teléfonos públicos, módulos de atención sanitaria, cajeros automáticos). También para las Olimpíadas de Barcelona, se le encarga el diseño de un conjunto de carteles sobre los principales deportes.</p>
+                </div>
+            </div>
+            <div class="noma">
+                <div class="noma_img">
+                    <img src="img/noma.jpg">
+                </div>
+                <header>
+                    <h1>Noma Bar</h1>
+                    <h2>Diseñador gráfico, ilustrador y artista</h2>
+                </header>
+                <div class="noma_texto">
+                    <p>Trabajó para revistas como; Esquire, The Guardian, The Economist,The Observer o UKnow.
+                    Su trabajo ha aparecido en muchas publicaciones de medios, incluyendo: Time Out London , BBC , Random House Ha publicado más de 550 ilustraciones y publicado dos libros de su trabajo a través de Mark Batty Editorial : Guess Who - Las muchas caras de Noma Bar en 2008 y espacio negativo(2009) Ha ganado numerosos premios de industria a lo largo de los año, entre los que podemos destacar: -El prestigioso premio Lápiz amarillo en los premios profesionales D AD 2012 para su serie de Don DeLillo cubiertas, creado con el estudio de diseño de Londres. -Su exposición London Design Festival ‘Cut It Out’, fue seleccionado como uno de los aspectos más destacados del festival. El proyecto fue nominado en la categoría de gráficos para el Museo del Diseño.</p>
+                </div>
+                <div class="noma_pie">
+                    <p>Utiliza mucho dobles sentidos en sus obras. Juega con el fondo y figura.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
